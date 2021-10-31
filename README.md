@@ -9,7 +9,7 @@ Implementação de teste Web ( pagina de login/ Formulário ), utilizando concei
 
 ## Conceitos abordados no curso
 
-- Page Object => É um padrão de desenho que representa a página e seus componentes em uma classe, com objetivo de evitar duplicação de código e facilitar manutenção das automatizações.
+- Page Object => Padrão de desenho que representa a página e seus componentes em uma classe, com objetivo de evitar duplicação de código e facilitar manutenção das automatizações.
 
 - Explicit Waits => As Esperas explícitas, permite que possamos pausar uma parte do código até que uma determinada condição aconteça.
   Exemplo: Esperar pela visualização de um elemento web ou esperar que um elemento se encontre na pagina web.
@@ -23,7 +23,7 @@ Implementação de teste Web ( pagina de login/ Formulário ), utilizando concei
 
 - Captura de Tela => Implementação de uma classe responsável pela manipulação de captura da tela do ponto de falha do caso de teste.
 
-- Data Driving Testing => Permite reutilizar os testes e executá-los com   dados diferentes, permitindo a ampliação de quantidade de teste de uma funcionalidade, sem ter que modificar o código dos testes.
+- Data Driving Testing => Permite reutilizar os testes e executá-los com dados diferentes, permitindo a ampliação de quantidade de teste de uma funcionalidade, sem ter que modificar o código dos testes.
 
 
 
