@@ -4,14 +4,14 @@ Implementação de teste Web ( pagina de login/ Formulário ), utilizando concei
 
 ## Tecnologias utilizadas
 - Class Library (.Net Framework)
-- NUnit + dependencias
+- NUnit + dependências
 - Selenium WebDriver + dependências
 
 ## Conceitos abordados no curso
 
-- Page Object => Page Object é um padrão de desenho que representa a pagina e seus componentes em uma classe, com objetivo de evitar duplicação de código e facilitar manutenção das automatizações.
+- Page Object => É um padrão de desenho que representa a página e seus componentes em uma classe, com objetivo de evitar duplicação de código e facilitar manutenção das automatizações.
 
-- Explici Waits =>  Esperas explícitas no Selenium, permite que possamos pausar uma parte do código até que uma determinada condição aconteça.
+- Explicit Waits => As Esperas explícitas, permite que possamos pausar uma parte do código até que uma determinada condição aconteça.
   Exemplo: Esperar pela visualização de um elemento web ou esperar que um elemento se encontre na pagina web.
 
 ## Boas práticas aplicadas
@@ -19,11 +19,11 @@ Implementação de teste Web ( pagina de login/ Formulário ), utilizando concei
 
 - Herança com Classe Base (Eliminando código repetitivo nas classes)
 
-- Arquivo de Configuração => É uma boa prática obter os dados de       configuração do Projeto em uma fonte externa, como arquivos de         configuração. Desta forma podemos mudar, por exemplo, a url da       aplicação que estamos testando sem a necessidade de compilar o código.
+- Arquivo de Configuração => É uma boa prática obter os dados de configuração do Projeto em uma fonte externa, como arquivos de configuração. Desta forma podemos mudar, por exemplo, a url da aplicação que estamos testando sem a necessidade de compilar o código.
 
-- Captura de tela => Implementação de uma classe responsável pela       manipulação de captura da tela caso teste venha falhar.
+- Captura de Tela => Implementação de uma classe responsável pela manipulação de captura da tela do ponto de falha do caso de teste.
 
-- Data Driving Testing => Permite reutilizar os testes e executá-los com   dados diferentes, permitindo a ampliação de quantidade de teste de uma   funcionalidade, sem ter que modificar o código dos testes.
+- Data Driving Testing => Permite reutilizar os testes e executá-los com   dados diferentes, permitindo a ampliação de quantidade de teste de uma funcionalidade, sem ter que modificar o código dos testes.
 
 
 
