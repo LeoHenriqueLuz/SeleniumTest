@@ -2,7 +2,7 @@
 
 Implementação de teste Web ( pagina de login/ Formulário ), utilizando conceitos básicos e boas praticas de teste.
 
-## Tecnologias e práticas utilizadas
+## Tecnologias utilizadas
 - Class Library (.Net Framework)
 - NUnit + dependencias
 - Selenium WebDriver + dependências
